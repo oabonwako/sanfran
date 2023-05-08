@@ -1,0 +1,59 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none
+}
+
+li {
+    margin: 20px;
+    color: white
+}
+
+#box {
+    background-color: white;
+    width: 300px;
+    height: 400px
+}
+
+#box >* {
+    padding: 18px;
+    margin: 2px;
+}
+
+#box, #pic {
+    margin-top: 70px;
+}
+
+
+section {
+    display: flex;
+    justify-content:center
+}
+
+#sect4 {
+    display: flex;
+    justify-content: center
+}
+
+#button {
+    background: linear-gradient(30deg, black, blue);
+    color: white;
+    padding: 5px
+}
+
+#button:hover {
+    background: linear-gradient(30deg, blue, black));
+    color: white;
+    padding: 5px
+}
